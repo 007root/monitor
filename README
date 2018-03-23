@@ -1,0 +1,4 @@
+监控：
+    根据自己的需求可以添加不同的监控项，现在只监控了本机到其他服务的状态。服务分为server和agent；agent需要一个守护进程，
+这里使用的是forever，安装请看https://www.npmjs.com/package/forever，也可以用supervisor，看你们了；
+报警使用的是微信，可以观摩一下我自己写的微信接口https://github.com/007root/weixin_api，
